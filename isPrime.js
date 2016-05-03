@@ -1,4 +1,4 @@
-function isPrime(n){ //素数返回true，非素数返回false
+锘縡unction isPrime(n){ //绱犳暟杩斿洖true锛岄潪绱犳暟杩斿洖false
   if (n == 2)
     return true;
   
