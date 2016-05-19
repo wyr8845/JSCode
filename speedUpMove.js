@@ -5,7 +5,7 @@
 	requestAnimationFrame(function ff() {
 		var p = (Date.now() - start) / dur;
 		if (p < 1) {
-			block.style.transform = 'translate(' + 100 * p + 'px)';
+			block.style.transform = 'translate(' + 100 * p * p + 'px)';
 			requestAnimationFrame(ff);
 		} else {
 			block.style.transform = 'translate(100px)';
